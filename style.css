@@ -75,7 +75,9 @@ header nav .middle ul a:hover{
 /* #home{
     height: 120vh;
 } */
-
+.logo img{
+    width: 70px;
+}
 .maincontent{
     /* position: absolute; */
     text-align: center;

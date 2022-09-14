@@ -125,6 +125,9 @@
     .footer .icons a i{
         font-size: 1.2em;
     }
+    .logo img{
+        width: 50px;
+    }
 }
 
 /* @media (max-width:500px) {
