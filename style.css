@@ -76,7 +76,8 @@ header nav .middle ul a:hover{
     height: 120vh;
 } */
 .logo img{
-    width: 70px;
+    width: 60px;
+    border-radius: 40px;
 }
 .maincontent{
     /* position: absolute; */
