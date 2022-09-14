@@ -79,6 +79,12 @@
     /* .nav-2 ul a{
         margin-bottom: ;
     } */
+    .contact{
+        width: 80%;
+    }
+    .footer .icons a i{
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width:500px) {
@@ -112,6 +118,12 @@
     .skills img{
         width: 100px;
         height: 100px;
+    }
+    .contact{
+        width: 90%;
+    }
+    .footer .icons a i{
+        font-size: 1.2em;
     }
 }
 
