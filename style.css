@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:var(--navy);
+    color: var(--white);
+}
+:root{
+    --navy:#0c243c;
+    --white:#fcf7f4;
+    --main-color:#d3ad7f ;
+    --black:#13131a;
+    --bg:#010103;
+    --grey:#7e8c9c;
+    --tiara:#55c2c3;
+    --border:.1rem solid rgba(255,255,255,.3);
+
+}
+
+html{
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    color: var(--black);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 22vh;     */
+    padding: 20px 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    /* background-color: #87abe3; */
+    background-color: var(--navy);
+
+}
+
+header nav .middle ul,.nav-2 ul{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+}
+header nav .middle ul a,.nav-2 ul a{
+    text-decoration: none;
+    margin: 20px;
+    color: var(--white);
+    /* color: whitesmoke; */
+
+}
+header nav .middle ul a:hover{
+    opacity: 0.6;
+    border-bottom: 0.1rem solid;
+    padding-bottom: 7px;
+    transition: 0.2s linear;
+}
+/* body::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: url("img/bg.avif") no-repeat;
+    background-size: 100% 100%;
+    top: 0;left: 0;right: 0;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+} */
+/* #home{
+    height: 120vh;
+} */
+
+.maincontent{
+    /* position: absolute; */
+    text-align: center;
+    margin: 0 auto;
+    width: 90vw;
+    padding: 0 10vh;
+    padding-top: 25vh;
+    /* background-color: green; */
+    /* height: 120vh; */
+    /* margin: 30vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+.hello{
+    font-size: 90px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.aboutme{
+    font-size: 40px;
+    font-family: 'DynaPuff', cursive;
+}
+.name{
+    font-size: 75px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.moreabout{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.btn{
+    padding: 14px 25px;
+    border-radius: 10px;
+    color: var(--navy);    /* background-color: #f2f2f2; */
+    background-color: var(--white);
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid silver;
+    font-weight: bold;
+}
+.btn:hover{
+    color: var(--white);
+    background-color: var(--navy);
+}
+
+nav i{
+    font-size: 30px;
+    cursor: pointer;
+}
+nav .fa-xmark{
+    display: none;
+}
+nav .fa-bars{
+    display: none;
+}
+
+#aboutme{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20vh;
+    text-align: center;
+    /* height: 100vh; */
+}
+.languages,
+.frameworks{
+    display: flex;
+    gap:5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.heading{
+    font-size: 90px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.skills img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+#aboutme h2{
+    margin-top: 10vh;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    margin-bottom: 3vh;
+}
+
+#aboutme h3{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'DynaPuff', cursive;
+}
+#aboutme .html:hover img,
+#aboutme .css:hover img,
+#aboutme .fram:hover img{
+    transform: scale(0.9);
+    transition: transform linear;
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+    transition-property: initial;
+    cursor: pointer;
+}   
+#aboutme .html ,
+#aboutme .css ,
+#aboutme .fram {
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    /* background-color: #c3cfd6; */
+    margin-top: 30px;
+}
+.footer .inner{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 3vh;
+    /* background-color: red; */
+}
+.footer .icons a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: silver; */
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.footer .icons a:hover {
+    transform: rotate(45deg);
+}
+
+.footer .icons a::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 0.2s;
+}
+/* .footer .inner .icons a{
+    background-color: #13131a;
+    padding: 10px;
+} */
+.footer .icons a i{
+    font-size: 1.7em;
+    transition: all 0.4s;
+}
+.footer .icons a:hover::before{
+    opacity: 0.4;
+}
+.footer .icons a:nth-child(1)::before{
+    background: rgb(222, 27, 60); 
+}
+.footer .icons a:nth-child(2)::before{
+    background: blue; 
+}
+.footer .icons a:nth-child(3)::before{
+    background: #6cc644; 
+}
+.footer .icons a:nth-child(4)::before{
+    background: rgb(40, 92, 212); 
+}
+
+.footer .icons a i{
+    font-size: 1.7em;
+    transition: all 0.4s;
+}
+.footer .inner .icons a:hover i{
+    color: white;
+    transform: rotate(-45deg);
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.nav-2{
+    width: 100%;
+    justify-content: center;
+}
+.nav-2 ul{
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.nav-2 ul a{
+    /* background-color: silver; */
+    color: white;
+    padding: 7px 10px;
+    border-radius: 6px;
+    margin: 0px;
+}.nav-2 ul li{
+    margin: 20px;
+}
+
+#contact{
+    text-align: center;
+    width: 100%;
+    padding-top: 10rem;
+}
+.contact{
+    margin: 0 auto;
+    width: 55%;
+     /* background-color: green; */
+     padding: 10px 0px;
+     text-transform: capitalize;
+}
+.inputbox{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    border-bottom: 3px solid silver;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    /* box-shadow: 0px 5px 0px 0px rgb(234, 225, 225); */
+}
+.inputbox span{
+    font-size: 20px;
+    color: var(--white);
+}
+.inputbox input,
+.inputbox textarea{
+    width: 100%;
+    outline: none;
+    resize: none;
+    border: none;
+    margin-left: 11px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+/* .inputbox:hover{
+    background-color: ;
+} */
+.contact form .btn{
+    width: 100%;
+}

@@ -1,0 +1,150 @@
+@media (min-width:900px) and (max-width:5200px) {
+    .change {
+        display: none;
+    }
+}
+:root{
+    --navy:#0c243c;
+    --white:#fcf7f4;
+}
+
+@media (max-width:900px) {
+
+    nav .fa-xmark {
+        display: none;
+    }
+
+    nav .fa-bars {
+        display: inline-block;
+    }
+
+    .middle {
+        height: 100px;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        top: 100%;
+        right: 0%;
+        width: 0vw;
+        transition: width 0.2s ease-in;
+    }
+
+    .middle ul {
+        flex-direction: column;
+        background-color: white;
+    }
+    header nav .middle ul a{
+        color: var(--navy);
+    }
+
+    .middle ul li {
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+
+    .active {
+        width: 100vw;
+    }
+
+    .hello ,.heading{
+        font-size: 65px;
+    }
+    #aboutme h2{
+        font-size: 32px;
+    }
+    .aboutme {
+        font-size: 26px;
+    }
+
+    .moreabout,#aboutme h3 {
+        font-size: 17px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 50px;
+    }
+    .skills img{
+        width: 150px;
+        height: 150px;
+    }
+    .nav-2 ul{
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .nav-2 ul a{
+        margin-bottom: ;
+    } */
+}
+
+@media (max-width:500px) {
+    .hello ,.heading{
+        font-size: 45px;
+    }
+
+    .aboutme {
+        font-size: 20px;
+    }
+    #aboutme h2{
+        font-size: 26px;
+    }
+    .moreabout ,#aboutme h3{
+        font-size: 17px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+    .maincontent {
+        padding-top: 30vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    
+    }
+    .skills img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* @media (max-width:500px) {
+    .hello {
+        font-size: 35px;
+    }
+
+    .aboutme {
+        font-size: 17px;
+    }
+
+    .moreabout {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .maincontent {
+        padding-top: 30vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    
+    }
+    .skills img{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+} */
