@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.2s linear;
 
 }
 body{
@@ -23,11 +24,13 @@ body{
 }
 
 html{
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     scroll-behavior: smooth;
     overflow-x: hidden;
     color: var(--black);
 }
+
+/* navbar section starts */
 header nav{
     display: flex;
     justify-content: space-between;
@@ -61,36 +64,17 @@ header nav .middle ul a:hover{
     padding-bottom: 7px;
     transition: 0.2s linear;
 }
-/* body::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    background: url("img/bg.avif") no-repeat;
-    background-size: 100% 100%;
-    top: 0;left: 0;right: 0;
-    width: 100%;
-    z-index: -2;
-    opacity: 0.8;
-} */
-/* #home{
-    height: 120vh;
-} */
+
 .logo img{
     width: 60px;
     border-radius: 40px;
 }
 .maincontent{
-    /* position: absolute; */
     text-align: center;
     margin: 0 auto;
     width: 90vw;
     padding: 0 10vh;
     padding-top: 25vh;
-    /* background-color: green; */
-    /* height: 120vh; */
-    /* margin: 30vh; */
-    /* display: flex; */
-    /* justify-content: center; */
 
 }
 .hello{
@@ -117,7 +101,7 @@ header nav .middle ul a:hover{
 .btn{
     padding: 14px 25px;
     border-radius: 10px;
-    color: var(--navy);    /* background-color: #f2f2f2; */
+    color: var(--navy);    
     background-color: var(--white);
     cursor: pointer;
     font-size: 25px;
@@ -140,6 +124,9 @@ nav .fa-bars{
     display: none;
 }
 
+
+
+/* projects section start */
 #aboutme{
     margin: 0 auto;
     width: 80%;
@@ -192,9 +179,130 @@ nav .fa-bars{
 #aboutme .fram {
     cursor: pointer;
 }
+
+/* projects section start */
+#projects h1{
+    text-align: center;
+}
+#projects{
+    padding-top: 20vh;
+}
+#projects .projectsection{
+    
+    margin: 0 auto;
+    width: 90%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 10vh;
+}
+#projects .projectsection .project{
+    width: 32%;
+    /* background-color: red; */
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid rgb(106, 101, 101);
+}
+.projectsection .project .image{
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    height: 220px;
+}
+.projectsection .project img{
+    width: 100%;
+    height: 100%;
+    cursor:grabbing;
+    object-fit: cover/center;
+}
+.projectsection .project .image:hover img{
+    transform: scale(1.2);
+}
+.content p{
+    font-size: 17px;
+    padding: 0px 4px;
+    opacity: 0.8;
+    word-spacing: 2px;
+    text-transform: initial;
+}
+.content h3{
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.anchors{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.anchors a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--navy);   
+    background-color: var(--white);
+    font-size: 20px;
+    border: 1px solid silver;
+    font-weight: bold;
+}
+.anchors a:hover{
+    color: var(--white);
+    background-color: var(--navy);
+}
+
+
+/* contact section start */
+#contact{
+    text-align: center;
+    width: 100%;
+    padding-top: 10rem;
+}
+.contact{
+    margin: 0 auto;
+    width: 55%;
+     /* background-color: green; */
+     padding: 10px 0px;
+     text-transform: capitalize;
+}
+.inputbox{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    border-bottom: 3px solid silver;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    /* box-shadow: 0px 5px 0px 0px rgb(234, 225, 225); */
+}
+.inputbox span{
+    font-size: 20px;
+    color: var(--white);
+}
+.inputbox input,
+.inputbox textarea{
+    width: 100%;
+    outline: none;
+    resize: none;
+    border: none;
+    margin-left: 11px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.contact form .btn{
+    width: 100%;
+}
+
+
+/* footer start */
 .footer{
     width: 100%;
-    /* background-color: #c3cfd6; */
     margin-top: 30px;
 }
 .footer .inner{
@@ -233,10 +341,7 @@ nav .fa-bars{
     border-radius: 10px;
     transition: opacity 0.2s;
 }
-/* .footer .inner .icons a{
-    background-color: #13131a;
-    padding: 10px;
-} */
+
 .footer .icons a i{
     font-size: 1.7em;
     transition: all 0.4s;
@@ -289,48 +394,4 @@ nav .fa-bars{
     margin: 0px;
 }.nav-2 ul li{
     margin: 20px;
-}
-
-#contact{
-    text-align: center;
-    width: 100%;
-    padding-top: 10rem;
-}
-.contact{
-    margin: 0 auto;
-    width: 55%;
-     /* background-color: green; */
-     padding: 10px 0px;
-     text-transform: capitalize;
-}
-.inputbox{
-    width: 100%;
-    display: flex;
-    background-color: transparent;
-    border-bottom: 3px solid silver;
-    padding: 10px;
-    margin: 10px 0px;
-    border-radius: 10px;
-    /* box-shadow: 0px 5px 0px 0px rgb(234, 225, 225); */
-}
-.inputbox span{
-    font-size: 20px;
-    color: var(--white);
-}
-.inputbox input,
-.inputbox textarea{
-    width: 100%;
-    outline: none;
-    resize: none;
-    border: none;
-    margin-left: 11px;
-    font-size: 20px;
-    background-color: transparent;
-    color: white;
-}
-/* .inputbox:hover{
-    background-color: ;
-} */
-.contact form .btn{
-    width: 100%;
 }
