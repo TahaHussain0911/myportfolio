@@ -57,6 +57,8 @@ header nav .middle ul a,.nav-2 ul a{
     color: var(--white);
     /* color: whitesmoke; */
 
+    font-family: 'Quicksand', sans-serif;
+
 }
 header nav .middle ul a:hover{
     opacity: 0.6;
@@ -149,8 +151,8 @@ nav .fa-bars{
     font-family: 'Fira Sans', sans-serif;
 }
 .skills img{
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     cursor: pointer;
 }
 #aboutme h2{
@@ -161,11 +163,10 @@ nav .fa-bars{
     margin-bottom: 3vh;
 }
 
-#aboutme h3{
+#aboutme p{
     padding-top: 10px;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
-    font-weight: lighter;
 }
 #aboutme .html:hover img,
 #aboutme .css:hover img,
@@ -227,14 +228,13 @@ nav .fa-bars{
 .content p{
     font-size: 17px;
     padding: 0px 4px;
-    opacity: 0.8;
-    word-spacing: 2px;
     text-transform: initial;
-    font-family: Quicksand, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.7;
 }
 .content h3{
     font-family: 'Fira Sans', sans-serif;
-        font-size: 30px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -252,6 +252,7 @@ nav .fa-bars{
     background-color: var(--white);
     font-size: 20px;
     border: 1px solid silver;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
 .anchors a:hover{
