@@ -79,12 +79,13 @@ header nav .middle ul a:hover{
 }
 .hello{
     font-size: 90px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
 .aboutme{
     font-size: 40px;
-    font-family: 'DynaPuff', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 .name{
     font-size: 75px;
@@ -155,6 +156,7 @@ nav .fa-bars{
 #aboutme h2{
     margin-top: 10vh;
     font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
     font-size: 50px;
     margin-bottom: 3vh;
 }
@@ -162,7 +164,8 @@ nav .fa-bars{
 #aboutme h3{
     padding-top: 10px;
     font-size: 30px;
-    font-family: 'DynaPuff', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
 }
 #aboutme .html:hover img,
 #aboutme .css:hover img,
@@ -227,10 +230,11 @@ nav .fa-bars{
     opacity: 0.8;
     word-spacing: 2px;
     text-transform: initial;
+    font-family: Quicksand, sans-serif;
 }
 .content h3{
-    font-family: 'DynaPuff', cursive;
-    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+        font-size: 30px;
     margin-bottom: 10px;
     font-weight: bold;
 }
