@@ -171,4 +171,9 @@
     .content h3{
         font-size: 25px;
     }
+    .footer .icons a{
+        height: 40px;
+        width: 40px;
+        margin: 8px;
+    }
 }
