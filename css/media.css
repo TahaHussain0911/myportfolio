@@ -14,7 +14,9 @@
 }
 
 @media (max-width:900px) {
-
+    .languages, .frameworks{
+        width: 107%;
+    }
     nav .fa-xmark {
         display: none;
     }
@@ -108,20 +110,38 @@
     #projects .projectsection .project{
         width: 80%;
     }
+    .languages, .frameworks{
+        width: 100%;
+    }
 }
 @media (max-width:500px) {
-    .hello ,.heading{
-        font-size: 45px;
+    .languages, .frameworks{
+        gap: 4rem;
+    }
+    #aboutme p{
+        font-size: 20px;
+    }
+    #aboutme{
+        width: 92%;
+    }
+    .languages, .frameworks{
+        gap: 3rem;
+    }
+    .heading{
+        font-size: 48px;
+    }
+    .hello {
+        font-size: 59px;
     }
 
     .aboutme {
-        font-size: 20px;
+        font-size: 31px;
     }
     #aboutme h2{
         font-size: 26px;
     }
     .moreabout ,#aboutme h3{
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .btn {
@@ -129,7 +149,7 @@
     }
 
     .name {
-        font-size: 30px;
+        font-size: 51px;
     }
     .maincontent {
         padding-top: 30vh;
@@ -159,8 +179,35 @@
 
 }
 @media (max-width:350px){
+    .hello {
+        font-size: 38px;
+    }
+    .heading{
+        font-size: 42px;
+    }
+    .aboutme {
+        font-size: 22px;
+    }
+    .name {
+        font-size: 37px;
+    }
+    .moreabout ,#aboutme h3{
+        font-size: 16px;
+    }
+    .maincontent{
+        width:91vw;
+    }
+    #aboutme p{
+        font-size: 22px;
+    }
+    #aboutme{
+        width: 97%;
+    }
     .projectsection .project .image{
         height: 150px;
+    }
+    .languages, .frameworks{
+        gap: 2.5rem;
     }
     .anchors a {
         font-size: 16px;
@@ -172,8 +219,8 @@
         font-size: 25px;
     }
     .footer .icons a{
-        height: 40px;
+        height: 38px;
         width: 40px;
-        margin: 8px;
+        margin: 6px;
     }
 }

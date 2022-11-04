@@ -156,11 +156,12 @@ nav .fa-bars{
     cursor: pointer;
 }
 #aboutme h2{
+    text-align: center;
     margin-top: 10vh;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
     font-size: 50px;
-    margin-bottom: 3vh;
+    margin-bottom: 7vh;
 }
 
 #aboutme p{
