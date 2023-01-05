@@ -28,3 +28,14 @@ console.log(width);
 //     document.querySelector('.fa-xmark').style.display='none';
 //     document.querySelector('.fa-bars').style.display='none';
 // }
+const getAll=Array.from(document.querySelectorAll('input'));
+getAll.forEach((input)=>input.addEventListener('keydown',(e)=>{
+    if (e.target.value.length===0 && e.keyCode===32) {
+        e.preventDefault();
+    }
+}))
+document.querySelector('textarea').addEventListener('keydown',(e)=>{
+    if (e.target.value.length===0 && e.keyCode===32) {
+        e.preventDefault();
+    }  
+})
