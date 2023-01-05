@@ -155,7 +155,10 @@ nav .fa-bars{
     height: 160px;
     cursor: pointer;
     transition: 0.9s linear;
-
+}
+.c-plus img{
+    height: 200px;
+    width: 200px;
 }
 #aboutme h2{
     text-align: center;
