@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.2s linear;
+    transition: 0.4s linear;
 
 }
 body{
@@ -154,6 +154,8 @@ nav .fa-bars{
     width: 160px;
     height: 160px;
     cursor: pointer;
+    transition: 0.9s linear;
+
 }
 #aboutme h2{
     text-align: center;
@@ -173,10 +175,6 @@ nav .fa-bars{
 #aboutme .css:hover img,
 #aboutme .fram:hover img{
     transform: scale(0.9);
-    transition: transform linear;
-    transition-delay: 0.3s;
-    transition-duration: 1s;
-    transition-property: initial;
     cursor: pointer;
 }   
 #aboutme .html ,
