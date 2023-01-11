@@ -29,9 +29,9 @@ console.log(width);
 //     document.querySelector('.fa-bars').style.display='none';
 // }
 const getAll=Array.from(document.querySelectorAll('input'));
-getAll.forEach((input)=>input.addEventListener('keydown',(e)=>{
-    if (e.target.value.length===0 && e.keyCode===32) {
-        e.preventDefault();
+getAll.forEach((input)=>input.addEventListener('keydown',(event)=>{
+    if (event.target.value.length===0 && event.keyCode===32) {
+        event.preventDefault();
     }
 }))
 document.querySelector('textarea').addEventListener('keydown',(e)=>{
