@@ -1,201 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image" href="img/logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image" href="img/logo.png" />
     <title>Taha Hussain</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div id="div" class="logo"><img src="img/logo.png" alt=""></div>
-            <div id="div" class="middle">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutme">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-xmark"></i>
-        </nav>
+      <nav
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-delay="1000"
+        data-aos-duration="500"
+      >
+        <div id="div" class="logo"><img src="img/logo.png" alt="" /></div>
+        <div id="div" class="middle">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </nav>
     </header>
     <section id="home" class="maincontent">
-        <div class="devinfo">
-            <div class="hello">Hi, I am</div>
-            <div class="name">Taha Hussain</div>
-            <div class="aboutme">Web Developer </div>
-            <div class="moreabout">Hello, this is Taha Hussain! An Undergraduate Computer Science Student. Welcome to my
-                Portfolio</div>
-            <div class="buttons">
-                <a href="resume/TahaHussain-Resume.pdf" download><button class="btn">View Resume</button></a>
-            </div>
+      <div class="devinfo">
+        <div class="hello" data-aos="fade-down" data-aos-duration="500">Hi, I am</div>
+        <div
+          class="name"
+          data-aos="fade-in"
+          data-aos-delay="700"
+          data-aos-duration="700"
+        >
+          Taha Hussain
         </div>
+        <div
+          class="aboutme"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="500"
+        >
+          Web Developer
+        </div>
+        <div
+          class="moreabout"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="500"
+        >
+          Hello, this is Taha Hussain! An Undergraduate Computer Science
+          Student.
+        </div>
+        <div
+          class="buttons"
+          data-aos="fade-right"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+        data-aos-delay="700"
+          data-aos-duration="500"
+        >
+          <a href="resume/TahaHussain-Resume.pdf" download
+            ><button class="btn">View Resume</button></a
+          >
+        </div>
+      </div>
     </section>
     <section id="aboutme">
-        <h1 class="heading">MY SKILLS</h1>
-        <div class="skills">
-            <h2>Languages</h2>
-            <div class="languages">
-                <div class="html"><img src="img/html.png" alt="">
-                    <p>HTML</p>
-                </div>
-                <div class="css"><img src="img/css.png" alt="">
-                    <p>CSS</p>
-                </div>
-                <div class="html"><img src="img/javascript.png" alt="">
-                    <p>JAVASCRIPT</p>
-                </div>
-                <div class="html"><img src="img/python.png" alt="">
-                    <p>PYTHON</p>
-                </div>
-                <div class="html c-plus"><img src="img/c++.png" height="190px" width="190px" alt="">
-                    <p>C++</p>
-                </div>
-            </div>
-            <h2>Frameworks / Libraries</h2>
-            <div class="frameworks">
-                <div class="html"><img src="img/react.png" alt="">
-                    <p>REACT JS</p>
-                </div>
-                <div class="fram"><img src="img/tailwind.jpg" alt="">
-                    <p>TAILWIND CSS</p>
-                </div>
-                <div class="fram"><img src="img/qt.png" alt="">
-                    <p>QT</p>
-                </div>
-            </div>
+      <h1 class="heading">MY SKILLS</h1>
+      <div class="skills">
+        <h2>Languages</h2>
+        <div class="languages">
+          <div class="html" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/html.png" alt="" />
+            <p>HTML</p>
+          </div>
+          <div class="css" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/css.png" alt="" />
+            <p>CSS</p>
+          </div>
+          <div class="html" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/javascript.png" alt="" />
+            <p>JAVASCRIPT</p>
+          </div>
+          <div class="html" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/python.png" alt="" />
+            <p>PYTHON</p>
+          </div>
+          <div class="html c-plus" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/c++.png" height="190px" width="190px" alt="" />
+            <p>C++</p>
+          </div>
         </div>
+        <h2>Frameworks / Libraries</h2>
+        <div class="frameworks">
+          <div class="html" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/react.png" alt="" />
+            <p>REACT JS</p>
+          </div>
+          <div class="fram" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/tailwind.jpg" alt="" />
+            <p>TAILWIND CSS</p>
+          </div>
+          <div class="fram" data-aos="zoom-out" data-aos-duration="400">
+            <img src="img/qt.png" alt="" />
+            <p>QT</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="projects">
-        <h1 class="heading">PROJECTS</h1>
-        <div class="projectsection">
-            <div class="project">
-                <div class="image">
-                    <img src="img/insta.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Instagram Clone</h3>
-                    <p>Homepage of Instagram built using ReactJS and Sass with all possible user interactivities.</p>
-                    <div class="anchors">
-                        <a href="https://github.com/TahaHussain0911/InstagramClone" target="_blank">View Code</a>
-                        <a href="https://tahainsta.netlify.app/" target="_blank">Visit Site</a>
-                    </div>
-                </div>
+      <h1 class="heading">PROJECTS</h1>
+      <div class="projectsection">
+        <div
+          class="project"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="600"
+        >
+          <div class="image">
+            <img src="img/insta.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Instagram Clone</h3>
+            <p>
+              Homepage of Instagram built using ReactJS and Sass with all
+              possible user interactivities.
+            </p>
+            <div class="anchors">
+              <a
+                href="https://github.com/TahaHussain0911/InstagramClone"
+                target="_blank"
+                >View Code</a
+              >
+              <a href="https://tahainsta.netlify.app/" target="_blank"
+                >Visit Site</a
+              >
             </div>
-            <div class="project">
-                <div class="image">
-                    <img src="img/project2.PNG" alt="">
-                </div>
-                <div class="content">
-                    <h3>Coffee Site</h3>
-                    <p>A Coffee Site built using HTML,CSS and Javascript with an add to cart functionality </p>
-                    <div class="anchors">
-                        <a href="https://github.com/TahaHussain0911/coffeeplace" target="_blank">View Code</a>
-                        <a href="https://tahahussain0911.github.io/coffeeplace/" target="_blank">Visit Site</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="image">
-                    <img src="img/project1.PNG" alt="">
-                </div>
-                <div class="content">
-                    <h3>Job Board Site</h3>
-                    <p>Front-End of a Job listing website using HTML, CSS and JAVASCRIPT. Along with a Sign-In and Sign-Up Page. Please don't get mixed in Signing Up</p>
-                    <div class="anchors">
-                        <a href="https://github.com/TahaHussain0911/jobboard" target="_blank">View Code</a>
-                        <a href="https://tahahussain0911.github.io/jobboard/" target="_blank">Visit Site</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="image">
-                    <img src="img/project4.PNG" alt="">
-                </div>
-                <div class="content">
-                    <h3>Recipe App</h3>
-                    <p>This React application is built using an external recipe api. The input in the search bar fetches maximum 9 recipes of the searched item</p>
-                    <div class="anchors">
-                        <a href="https://github.com/TahaHussain0911/RecipeApp" target="_blank">View Code</a>
-                        <a href="https://food-camp-recipe.netlify.app/" target="_blank">Visit Site</a>
-                    </div>
-                </div>
-            </div>
-
+          </div>
         </div>
-
-
+        <div
+          class="project"
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="600"
+        >
+          <div class="image">
+            <img src="img/project2.PNG" alt="" />
+          </div>
+          <div class="content">
+            <h3>Coffee Site</h3>
+            <p>
+              A Coffee Site built using HTML,CSS and Javascript with an add to
+              cart functionality
+            </p>
+            <div class="anchors">
+              <a
+                href="https://github.com/TahaHussain0911/coffeeplace"
+                target="_blank"
+                >View Code</a
+              >
+              <a
+                href="https://tahahussain0911.github.io/coffeeplace/"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-duration="600"
+        >
+          <div class="image">
+            <img src="img/project1.PNG" alt="" />
+          </div>
+          <div class="content">
+            <h3>Job Board Site</h3>
+            <p>
+              Front-End of a Job listing website using HTML, CSS and JAVASCRIPT.
+              Along with a Sign-In and Sign-Up Page. Please don't get mixed in
+              Signing Up
+            </p>
+            <div class="anchors">
+              <a
+                href="https://github.com/TahaHussain0911/jobboard"
+                target="_blank"
+                >View Code</a
+              >
+              <a
+                href="https://tahahussain0911.github.io/jobboard/"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-duration="600"
+        >
+          <div class="image">
+            <img src="img/project4.PNG" alt="" />
+          </div>
+          <div class="content">
+            <h3>Recipe App</h3>
+            <p>
+              This React application is built using an external recipe api. The
+              input in the search bar fetches maximum 9 recipes of the searched
+              item
+            </p>
+            <div class="anchors">
+              <a
+                href="https://github.com/TahaHussain0911/RecipeApp"
+                target="_blank"
+                >View Code</a
+              >
+              <a href="https://food-camp-recipe.netlify.app/" target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="contact">
-        <h1 class="heading">GET IN TOUCH</h1>
-        <div class="contact">
-
-            <form action="https://formspree.io/f/mjvzybbe" method="POST">
-
-                <div class="inputbox">
-                    <span class="fa-solid fa-user"></span>
-                    <input type="text" name="Name" placeholder="Name" id="" minlength="5" required>
-
-                </div>
-                <div class="inputbox">
-                    <span class="fa-solid fa-envelope"></span>
-                    <input type="email" name="Email" placeholder="Email" id="" required>
-                </div>
-                <div class="inputbox">
-                    <span class="fa-solid fa-phone"></span>
-                    <textarea id="message" name="Message" cols="30" rows="7"
-                        placeholder="How can i help you" required></textarea>
-                </div>
-                <input type="submit" value="Send" class="btn">
-            </form>
-        </div>
+      <h1 class="heading">GET IN TOUCH</h1>
+      <div class="contact">
+        <form action="https://formspree.io/f/mjvzybbe" method="POST">
+          <div
+            class="inputbox"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="00"
+          >
+            <span class="fa-solid fa-user"></span>
+            <input
+              type="text"
+              name="Name"
+              placeholder="Name"
+              id=""
+              minlength="5"
+              required
+            />
+          </div>
+          <div
+            class="inputbox"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="00"
+          >
+            <span class="fa-solid fa-envelope"></span>
+            <input
+              type="email"
+              name="Email"
+              placeholder="Email"
+              id=""
+              required
+            />
+          </div>
+          <div
+            class="inputbox"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="00"
+          >
+            <span class="fa-solid fa-phone"></span>
+            <textarea
+              id="message"
+              name="Message"
+              cols="30"
+              rows="7"
+              placeholder="How can i help you"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Send"
+            class="btn"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="00"
+          />
+        </form>
+      </div>
     </section>
     <section class="footer">
-        <div class="inner">
-            <div class="icons">
-                <a href="https://www.instagram.com/taha.hussain08/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100009459752019" target="_blank">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="https://github.com/TahaHussain0911" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/tahahussain0911/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-
-            </div>
-            <div class="nav-2">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutme">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-
-                </ul>
-            </div>
-            <div class="credits">
-                <!-- <h2>&copy Taha Hussain</h2> -->
-
-            </div>
+      <div class="inner">
+        <div class="icons">
+          <a href="https://www.instagram.com/taha.hussain08/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100009459752019"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://github.com/TahaHussain0911" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tahahussain0911/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
+        <div class="nav-2">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="credits">
+          <!-- <h2>&copy Taha Hussain</h2> -->
+        </div>
+      </div>
     </section>
-    <script src="https://kit.fontawesome.com/838faa1f86.js" crossorigin="anonymous"></script>
-</body>
-<script src="script.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/838faa1f86.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="script.js"></script>
 </html>
