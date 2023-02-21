@@ -115,6 +115,9 @@
     }
 }
 @media (max-width:500px) {
+    nav{
+        width: 100%;
+    }
     .languages, .frameworks{
         gap: 4rem;
     }

@@ -10,6 +10,7 @@
 body{
     background-color:var(--navy);
     color: var(--white);
+    overflow-x: hidden;
 }
 :root{
     --navy:#0c243c;
