@@ -181,6 +181,11 @@
     }
 
 }
+@media screen and (max-width:420px) {
+    .footer .inner{
+        width: 88%;
+    }
+}
 @media (max-width:350px){
     .hello {
         font-size: 38px;
