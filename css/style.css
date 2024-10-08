@@ -76,11 +76,16 @@ header nav .middle ul a:hover{
     text-align: center;
     margin: 0 auto;
     width: 90vw;
-    padding: 0 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* padding: 0 10vh;
     padding-top: 25vh;
+    padding-bottom: 50px; */
 }
 .hello{
-    font-size: 90px;
+    font-size: 70px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
@@ -90,7 +95,7 @@ header nav .middle ul a:hover{
     font-weight: bold;
 }
 .name{
-    font-size: 75px;
+    font-size: 70px;
     font-family: 'Fira Sans', sans-serif;
 }
 .moreabout{
@@ -130,12 +135,16 @@ nav .fa-bars{
 
 
 /* projects section start */
-#aboutme{
+#aboutme,#skills{
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
     padding-top: 20vh;
     text-align: center;
     /* height: 100vh; */
+}
+#aboutme{
+    padding-top: 25vh;
+
 }
 .languages,
 .frameworks{
@@ -147,7 +156,7 @@ nav .fa-bars{
     width: 100%;
 }
 .heading{
-    font-size: 90px;
+    font-size: 65px;
     font-family: 'Fira Sans', sans-serif;
 }
 .skills img{
@@ -160,29 +169,30 @@ nav .fa-bars{
     height: 160px;
     width: 160px;
 }
-#aboutme h2{
+#aboutme h2,#skills h2{
     text-align: center;
     margin-top: 10vh;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 7vh;
 }
 
-#aboutme p{
+#aboutme p,#skills p{
     padding-top: 10px;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
 }
-#aboutme .html:hover img,
-#aboutme .css:hover img,
-#aboutme .fram:hover img{
+#skills .html:hover img,
+#skills .css:hover img,
+#skills .fram:hover img
+{
     transform: scale(0.9);
     cursor: pointer;
 }   
-#aboutme .html ,
-#aboutme .css ,
-#aboutme .fram {
+#skills .html ,
+#skills .css ,
+#skills .fram {
     cursor: pointer;
 }
 
@@ -223,6 +233,9 @@ nav .fa-bars{
     height: 100%;
     cursor:grabbing;
     object-fit: cover/center;
+}
+.projectsection .card-image img{
+    object-fit: cover;
 }
 .projectsection .project .image:hover img{
     transform: scale(1.2);
@@ -401,4 +414,12 @@ nav .fa-bars{
     margin: 0px;
 }.nav-2 ul li{
     margin: 20px;
+}
+.about-description p{
+    text-align: center;
+    font-size: 16px;
+    color: var(--white);
+}
+.about-container{
+    padding-block: 30px;
 }
