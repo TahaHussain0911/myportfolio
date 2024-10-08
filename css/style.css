@@ -79,7 +79,8 @@ header nav .middle ul a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
+    padding-top: 30px;
     /* padding: 0 10vh;
     padding-top: 25vh;
     padding-bottom: 50px; */
@@ -143,7 +144,11 @@ nav .fa-bars{
     /* height: 100vh; */
 }
 #aboutme{
-    padding-top: 25vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 .languages,
